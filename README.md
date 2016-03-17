@@ -19,11 +19,14 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 ## add-on (ex: mongodb)
 
 ```
+$ cd menu-select
 $ npm install mogodb --save
 $ git add .
 $ git commit -m "add mongodb add-on"
 $ git push
 ```
+These commands update local node-modules & pakage.json. and it's automatically deployed in heroku by pushing git.
+
 ## heroku deploy
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)

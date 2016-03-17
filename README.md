@@ -16,10 +16,12 @@ $ npm start
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## add-on (ex: mongodb)
+## add-on (ex: mongodb (mongolab))
 
 ```
 $ cd menu-select
+$ heroku addons:create monolab:sandbox
+
 $ npm install mogodb --save
 $ git add .
 $ git commit -m "add mongodb add-on"

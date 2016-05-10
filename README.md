@@ -16,6 +16,22 @@ $ npm start
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
+## Running on Heroku
+
+```sh
+$ cd menu-select
+$ npm install
+$ heroku open -a menu-select
+```
+
+You can verify your app's name in package.json file.
+
+## Checking logs
+
+```sh
+$ heroku logs -a menu-select
+```
+
 ## add-on (ex: mongodb (mongolab))
 
 ```
